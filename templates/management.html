@@ -1,0 +1,53 @@
+{%extends "base.html"%}
+{% load static %}
+{% block content %}
+<div class="dr">
+<h2>เพิ่มร้านอาหาร</h2>
+    <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">ชื่อร้าน :</label>
+            <input type="email" class="form-control">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">เจ้าของร้าน :</label>
+            <input type="password" class="form-control">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputCity">อนุมัติโดย :</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputCity">วันที่อนุมัติ :</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputZip">คณะ :</label>
+            <input type="text" class="form-control" id="inputZip">
+          </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-4">
+              <label for="inputEmail4">เวลาเปิดร้าน :</label>
+              <input type="email" class="form-control">
+            </div>
+            <div class="form-group col-md-4">
+              <label for="inputPassword4">เวลาปิดร้าน :</label>
+              <input type="password" class="form-control" >
+            </div>
+            <div class="form-group col-md-4">
+              <label for="inputPassword4">คะแนน :</label>
+              <input type="password" class="form-control" >
+            </div>
+          </div>
+        <div class="form-group">
+            <label for="exampleFormControlFile1">รูปภาพร้านอาหาร :</label>
+            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+        </div>
+        </div>
+        <button type="button" class="btn btn-lg btn-block btn-dark">ยืนยัน</button>
+      </form>
+  </div>
+  {% endblock %}

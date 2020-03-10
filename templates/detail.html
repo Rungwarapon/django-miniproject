@@ -1,0 +1,48 @@
+{%extends "base.html"%}
+{% load static %}
+{% block content %}
+
+<body>
+<div class="rt">
+     <center>
+    <div style="width: 45em;">
+    <img src="1.png" >
+    <div class="card-body">
+        <h5 class="card-title">Restaurant Name</h5>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+            <p>Owner : </p>
+        </li>
+        <li class="list-group-item">
+            <p>Open Time :</p>
+            <p>Close Time :</p>
+        </li>
+        <li class="list-group-item">
+            <p><b>Menu</b></p>
+        </li>
+    </ul>
+    <div class="card-body">
+        <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Rating
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" >1</a>
+                <a class="dropdown-item" >2</a>
+                <a class="dropdown-item" >3</a>
+                <a class="dropdown-item" >4</a>
+                <a class="dropdown-item" >5</a>
+                <a class="dropdown-item" >6</a>
+                <a class="dropdown-item" >7</a>
+                <a class="dropdown-item" >8</a>
+                <a class="dropdown-item" >9</a>
+                <a class="dropdown-item" >10</a>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    </center>
+<div></body>
+{% endblock %}
